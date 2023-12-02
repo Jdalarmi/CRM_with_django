@@ -2,7 +2,7 @@
     <a href="{% url "index" %}" class="navbar-brand">CRM</a>
     <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="#">Customer <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="{% url "customers:customer-list" %}">Customer <span class="sr-only">(current)</span></a>
         </li>
         {% comment %} <li class="nav-item">
           <a class="nav-link" href="#">Link</a>
