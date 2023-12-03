@@ -37,4 +37,9 @@ class CustomerUpdateView(UpdateView):
     
     
 class CustomerDeleteView(DeleteView):
-    pass
+    def get_object(self):
+        id = self.kwargs.get("id")
+        return get_object_or_404(Customer, id=id)
+
+    def get_success_url(self):
+        return reverse("customers:customer-list")
