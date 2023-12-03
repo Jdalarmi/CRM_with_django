@@ -11,7 +11,7 @@ SECRET_KEY = 'django-insecure-bpo$o6+u**83-6$bt$8ob#r8*ivfh#d@=cgz+!r4&f7xm(qc4(
 
 DEBUG = False
 
-ALLOWED_HOSTS = ['crm-gisil-689493e67ace.herokuapp.com']
+ALLOWED_HOSTS = ['crm-dev-234c038c59fa.herokuapp.com']
 
 
 # Application definition
