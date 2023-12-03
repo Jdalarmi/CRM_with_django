@@ -14,7 +14,7 @@ def submit_login(request):
 
         if user:
             app_login(request, user)
-            return redirect("index")
+            return redirect("customers:customer-list")
         else:
             messages.error(request, "Usuarios/ Senhas invalido. Por favor tente novamente!")
     return redirect("login")
