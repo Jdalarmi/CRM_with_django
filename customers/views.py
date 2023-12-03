@@ -1,17 +1,27 @@
 from typing import Any
 from django.db import models
+from django.db.models.query import QuerySet
 from django.shortcuts import get_object_or_404, render
 from django.views.generic import ListView, CreateView, DeleteView, UpdateView
 from .models import Customer
 from .forms import CustomerForm
 from django.urls import reverse
-
+from django.db.models import Q
 
 class CustomerListView(ListView):
     template_name = "customers/customer_list.html"
-    paginate_by = 1
+    paginate_by = 5
     model = Customer
-    queryset = Customer.objects.all()
+    
+    def get_queryset(self):
+        name = self.request.GET.get("name")
+        if name:
+            object_list = self.model.objects.filter(
+                Q(first_name__icontains=name)| Q(last_name = name)
+                )
+        else:
+            object_list = self.model.objects.all()
+        return object_list
 
 class CustomerCreateView(CreateView):
     template_name = "customers/customer.html"
