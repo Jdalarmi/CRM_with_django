@@ -13,14 +13,14 @@ class CustomerForm(forms.ModelForm):
     last_name = forms.CharField(label="Sobrenome")
     email = forms.EmailField()
     birth_date = forms.DateField(label="Data de Nascimento", widget=DateInput())
-    area_code = forms.RegexField(
+    area_code = forms.CharField(
         label="DDD",
-        regex=r"^/+?1?[0-9]{2}",
+        #regex=r"^/+?1?[0-9]{3}",
         error_messages={"invalid": "Numero de DDD inválido"}
         )
-    phone_number = forms.RegexField(
+    phone_number = forms.CharField(
         label="Numero de telefone",
-        regex=r"^/+?1?[0-9]{9, 15}",
+        #regex=r"^/+?1?[0-9]{9, 15}",
         error_messages={"invalid": "Numero de telefone inválido"},
         )
         

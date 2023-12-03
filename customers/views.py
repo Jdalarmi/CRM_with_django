@@ -9,6 +9,7 @@ from django.urls import reverse
 
 class CustomerListView(ListView):
     template_name = "customers/customer_list.html"
+    paginate_by = 1
     model = Customer
     queryset = Customer.objects.all()
 
