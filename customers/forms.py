@@ -7,7 +7,9 @@ class DateInput(forms.DateInput):
     input_type = "date"
 
 class CustomerForm(forms.ModelForm):
-    first_name = forms.CharField(label='Nome')
+    first_name = forms.CharField(
+        label='Nome',
+        )
     last_name = forms.CharField(label="Sobrenome")
     email = forms.EmailField()
     birth_date = forms.DateField(label="Data de Nascimento", widget=DateInput())
