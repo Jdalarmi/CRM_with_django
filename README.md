@@ -17,7 +17,7 @@ Esse é o projeto de um CRM que tem como objetivo armazenar informações de cli
 
 ## 📡 Tecnologias utilizadas 
 <div align="center"> 
-<img align="left" alt="Python" height="30" width="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/django/django-original.svg">
+<img align="left" alt="Python" height="30" width="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
 <img align="left" alt="Postgresql" height="30" width="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg">
 
 
