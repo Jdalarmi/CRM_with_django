@@ -7,6 +7,10 @@
 
 Esse é o projeto de um CRM que tem como objetivo armazenar informações de clientes
 
+## Acesse o site do deploy do projeto
+
+[https://crm-dev-234c038c59fa.herokuapp.com/customers/list/]
+
 <br/>
 
 ## 🛠️ Funcionalidades
@@ -19,8 +23,17 @@ Esse é o projeto de um CRM que tem como objetivo armazenar informações de cli
 
 ## 📡 Tecnologias utilizadas 
 <div align="center"> 
-<img align="left" alt="Django" height="30" width="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
-<img align="left" alt="Python" height="30" width="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/django/django-original.svg">
+
+<img align="left" alt="python" height="30" width="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
+
+<img align="left" alt="django" height="30" width="30" src="https://github.com/marwin1991/profile-technology-icons/assets/62091613/9bf5650b-e534-4eae-8a26-8379d076f3b4">
+
+<img align="left" alt="html" height="30" width="30" src="https://user-images.githubusercontent.com/25181517/192158954-f88b5814-d510-4564-b285-dff7d6400dad.png">
+
+<img align="left" alt="css" height="30" width="30" src="https://user-images.githubusercontent.com/25181517/183898674-75a4a1b1-f960-4ea9-abcb-637170a00a75.png">
+
+<img align="left" alt="bootstrap" height="30" width="30" src="https://user-images.githubusercontent.com/25181517/183898054-b3d693d4-dafb-4808-a509-bab54cf5de34.png">
+
 <img align="left" alt="Postgresql" height="30" width="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg">
 
 <img align="left" alt="http" height="30" width="30" src="https://user-images.githubusercontent.com/25181517/192107854-765620d7-f909-4953-a6da-36e1ef69eea6.png">
