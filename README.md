@@ -7,10 +7,6 @@
 
 Esse é o projeto de um CRM que tem como objetivo armazenar informações de clientes
 
-## Acesse o site do deploy do projeto
-
-[https://crm-dev-234c038c59fa.herokuapp.com/customers/list/]
-
 <br/>
 
 ## 🛠️ Funcionalidades
